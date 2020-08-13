@@ -27,7 +27,7 @@ body {
 }
 .nav-menu {
   list-style: none;
-  margin-top: 55px;
+  margin-top: 70px;
   padding: 0;
 }
 .nav-menu li {
@@ -47,8 +47,8 @@ body {
   font-size: 16px;
 }
 .nav-burger-icon img {
-  float: right;
-  margin: 11px 15px 0 0;
+  float: left;
+  margin: 21px 0 0 15px;
 }
 .nav-burger-icon img:hover {
   opacity: 0.8;
@@ -58,7 +58,7 @@ body {
   max-width: 65px;
 }
 #nav-menu-input:checked + .nav .nav-menu {
-  margin-top: 55px;
+  margin-top: 70px;
 }
 #nav-menu-input:checked + .nav .nav-menu span {
   display: none;
