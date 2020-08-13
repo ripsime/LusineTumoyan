@@ -1,86 +1,65 @@
 body {
-    font-weight: 400;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    color: white;
-}
-
 .header {
-    z-index: 200;
-    height: 54px;
-    background-color: #b3b3b3;
+  z-index: 200;
+  height: 54px;
+  background-color: #b3b3b3;
 }
-
-.main {
-    
-}
-
 .nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 100%;
-    max-width: 230px;
-    width: 100%;
-    z-index: 100;
-    background-color: #4c4c4d;
-    color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  max-width: 230px;
+  width: 100%;
+  z-index: 100;
+  background-color: #4c4c4d;
+  color: white;
 }
-
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+.nav a:hover {
+  color: white;
+}
 .nav-menu {
-    list-style: none;
-    margin-top: 55px;
-    padding: 0;
+  list-style: none;
+  margin-top: 55px;
+  padding: 0;
 }
-
 .nav-menu li {
-    padding: 12px 5px 12px 25px;
+  padding: 12px 5px 12px 25px;
 }
-
 .nav-menu li:hover {
-    background-color: #b3a172;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    transition: all 0.5s;
-    cursor: pointer;
+  background-color: #b3a172;
+  cursor: pointer;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
 }
-
 .nav-menu span {
-    margin: 0 5px;
-    font-size: 16px;
+  margin: 0 5px;
+  font-size: 16px;
 }
-
 .nav-burger-icon img {
-    float: right;
-    margin: 11px 15px 0 0;
+  float: right;
+  margin: 11px 15px 0 0;
 }
-
 .nav-burger-icon img:hover {
-    opacity: 0.8;
-    cursor: pointer;
+  opacity: 0.8;
+  cursor: pointer;
 }
-
 #nav-menu-input:checked + .nav {
-    max-width: 65px;
+  max-width: 65px;
 }
-
 #nav-menu-input:checked + .nav .nav-menu {
-    margin-top: 55px;
+  margin-top: 55px;
 }
-
 #nav-menu-input:checked + .nav .nav-menu span {
-    display: none;
-}
-
-.footer {
-
+  display: none;
 }
