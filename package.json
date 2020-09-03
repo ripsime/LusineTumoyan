@@ -1,0 +1,33 @@
+{
+  "name": "lusinetumoyan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.dev.config.js",
+  "scripts": {
+    "start": "webpack",
+    "dev": "webpack-dev-server --open",
+    "less": "lessc ./assets/less/main.less ./assets/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ripsime/LusineTumoyan.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ripsime/LusineTumoyan/issues"
+  },
+  "homepage": "https://github.com/ripsime/LusineTumoyan#readme",
+  "devDependencies": {
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.2",
+    "file-loader": "^6.1.0",
+    "html-webpack-plugin": "^4.4.1",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

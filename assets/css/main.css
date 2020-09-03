@@ -3,18 +3,22 @@ body {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 .header {
-  z-index: 200;
+  z-index: 300;
   height: 54px;
   background-color: #b3b3b3;
 }
+.header-title {
+  padding: 9px 0 0 17px;
+  font-size: 24px;
+}
 .nav {
   position: absolute;
-  top: 0;
+  top: 54px;
   left: 0;
   min-height: 100%;
   max-width: 230px;
   width: 100%;
-  z-index: 100;
+  z-index: 200;
   background-color: #4c4c4d;
   color: white;
 }
@@ -27,11 +31,12 @@ body {
 }
 .nav-menu {
   list-style: none;
-  margin-top: 70px;
+  margin-top: 55px;
   padding: 0;
 }
 .nav-menu li {
-  padding: 12px 5px 12px 25px;
+  padding: 15px 5px 15px 18px;
+  border-top: 1px solid;
 }
 .nav-menu li:hover {
   background-color: #b3a172;
@@ -42,23 +47,26 @@ body {
   -ms-transition: all 0.5s;
   transition: all 0.5s;
 }
+.nav-menu li i {
+  font-size: 20px;
+}
+.nav-menu:last-child {
+  border-bottom: 1px solid;
+}
 .nav-menu span {
-  margin: 0 5px;
+  margin: 0 10px;
   font-size: 16px;
 }
 .nav-burger-icon img {
   float: left;
-  margin: 21px 0 0 15px;
+  margin: 15px 0 0 15px;
 }
 .nav-burger-icon img:hover {
   opacity: 0.8;
   cursor: pointer;
 }
 #nav-menu-input:checked + .nav {
-  max-width: 65px;
-}
-#nav-menu-input:checked + .nav .nav-menu {
-  margin-top: 70px;
+  max-width: 60px;
 }
 #nav-menu-input:checked + .nav .nav-menu span {
   display: none;
