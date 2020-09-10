@@ -1,43 +1,16 @@
 <!DOCTYPE html>
-<html> 
-    <head>
-        <title>My Rapberry Pi</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=latin-ext">
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>My Raspberry Pi</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=latin-ext"
+			rel="stylesheet"
+		/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./assets/css/normalize.css">
-        <link rel="stylesheet" href="./assets/css/main.css">
-    </head>
-    <body>
-        <div class="header">
-            <div class="header-title">IoT</span>
-        </div>
-        <div class="main">
-            <input type="checkbox" id="nav-menu-input" hidden />
-            <div class="nav">
-                <div class="nav-burger">                    
-                    <label for="nav-menu-input" class="nav-burger-icon">
-                        <img src="./assets/images/burger.svg" alt="">
-                    </label>                    
-                </div>          
-                <ul class="nav-menu">
-                    <li>                        
-                        <a href="">
-                            <i class="fa fa-home"></i>
-                            <span>Home</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <i class="fa fa-columns"></i>
-                            <span>Dashboard</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="content">
-
-            </div>
-        </div>
-    </body>
+	</head>
+	<body>
+		<div id="root"></div>
+		<script src="/dist/bundle.js"></script>
+	</body>
 </html>
